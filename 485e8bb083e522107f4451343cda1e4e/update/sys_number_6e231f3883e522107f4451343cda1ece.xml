@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_cdltd_snow_coffe_order">x_cdltd_snow_coffe_order</category>
+        <maximum_digits>8</maximum_digits>
+        <number>1000</number>
+        <prefix>SNOWCOF</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 09:42:13</sys_created_on>
+        <sys_id>6e231f3883e522107f4451343cda1ece</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNOWCOF</sys_name>
+        <sys_package display_value="snow coffee" source="x_cdltd_snow_coffe">485e8bb083e522107f4451343cda1e4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="snow coffee">485e8bb083e522107f4451343cda1e4e</sys_scope>
+        <sys_update_name>sys_number_6e231f3883e522107f4451343cda1ece</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 09:42:13</sys_updated_on>
+    </sys_number>
+</record_update>

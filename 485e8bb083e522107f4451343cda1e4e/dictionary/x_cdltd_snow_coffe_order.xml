@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1e231f3883e522107f4451343cda1e72" label="Order" max_length="40" name="x_cdltd_snow_coffe_order" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ordered" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="getting prepared" value="getting_prepared"/>
+                <element inactive_on_update="false" label="ready" value="ready"/>
+                <element inactive_on_update="false" label="picked up" value="picked_up"/>
+                <element inactive_on_update="false" label="ordered" value="ordered"/>
+                <element inactive_on_update="false" label="breving" value="breving"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="small" display="true" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="medium" value="medium"/>
+                <element inactive_on_update="false" label="small" value="small"/>
+                <element inactive_on_update="false" label="large" value="large"/>
+            </choice>
+        </element>
+    </element>
+</database>
